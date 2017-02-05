@@ -1,0 +1,59 @@
+body{
+    margin:0;
+}
+
+header {
+    background: #200;
+    color:white;
+    padding: 15px 15px 10px 15px;
+    //margin:10px;
+}
+
+header h1 {
+    background: #200;
+    margin:0;
+    float:left;
+    width:15%;
+    //width:200px;//because we used float
+    //display:inline-block;
+}
+
+
+
+nav ul{
+    margin:0 0 0 0;
+    background:#700;
+    //float:left;
+    //display:inline-block;
+}
+
+nav ul li{
+    clear:both; //clears the float
+    background:#700;
+    color:white;
+    list-style-type: none;
+    display:inline-block;
+    padding:5px 20px; //margin wouldn't make black box extend
+}
+
+nav ul li a{
+    color:white;
+}
+
+.row{
+    float:left;
+    width:100%;
+}
+.row:after{
+    clear:both;
+}
+
+.col {
+    float:left;
+    background:black;
+    color:white;
+    border-radius:8px;
+    margin:1%;
+    width:30%;
+}
+
